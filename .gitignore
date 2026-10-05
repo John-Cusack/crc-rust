@@ -5,3 +5,4 @@ build/
 dist/
 *.egg-info/
 .grade-venv/
+.pytest_cache/
