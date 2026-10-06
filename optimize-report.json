@@ -1,0 +1,418 @@
+{
+  "accepted": {
+    "base_fork_sha": "6835dcbe4f7651b8268ae75549444a0de5124182",
+    "files": [
+      {
+        "path": ".github/ISSUE_TEMPLATE/blank.md",
+        "sha256": "cf5109d4021dfd31218b82539479e0ecbf316449611b39887d40d4462e59accb"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/bug.md",
+        "sha256": "33c140dba28048d5aaee33f631531708ad4090adddaa59c21a60f0962419062f"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/documentation.md",
+        "sha256": "ca034a14384098989b7d8518997344e2d82b0c3d15f386683dac93c88daa3ea6"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/feature.md",
+        "sha256": "b24bb3fbce48687b53691fdafe3cc00157360ff95ac9dc70821d5691c5d3080e"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/refactoring.md",
+        "sha256": "8b77d4277e44993d8ebc742f14bc7c580a3276a1c5f854da4ce3233493c843d5"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/security.md",
+        "sha256": "c40406db0f20ce339d6bc95b4c736d35c05fcc7e9c8d17e15d6264745ca2ed74"
+      },
+      {
+        "path": ".github/actions/python-environment/action.yml",
+        "sha256": "fa426f84522397a24c58927519eb5fbfeae151438f90e8cce3179155b592e67d"
+      },
+      {
+        "path": ".github/dependabot.yml",
+        "sha256": "6cb763d2651fef4e6a6a924e6c742b03f73a85e10cd7e10a514853d1d2c262bc"
+      },
+      {
+        "path": ".github/workflows/checks.yml",
+        "sha256": "65fd55a16b1442726d88c187b5d4b3b7e5f98ae79fb40ffed167e3146d0b27eb"
+      },
+      {
+        "path": ".github/workflows/ci-cd.yml",
+        "sha256": "2fc6ab69a67788fe462cb5a7a639d82c8fa96ae7b2b2a9db18be7dbbdaa00cca"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "sha256": "f493d06331d8ae0f99f1fb577703119cf01d67a947118c12f5df99717ce668df"
+      },
+      {
+        "path": ".github/workflows/gh-pages.yml",
+        "sha256": "b422b8414202a6022a39789283c6f442642fa39b087227c2d2a041f8614dc0d8"
+      },
+      {
+        "path": ".github/workflows/pr-merge.yml",
+        "sha256": "c492f61b02a445430fcbcef1b8dfd240eee38e89ca4ee404e87ee3a98eba9013"
+      },
+      {
+        "path": ".gitignore",
+        "sha256": "938cbbe1e754ac8a7ca7255f47114a8754ce153cf3939cf60e09ca56aca8abff"
+      },
+      {
+        "path": ".pre-commit-config.yaml",
+        "sha256": "eade961cfbcaa1fc49eaf2bc3b073402756d2dd851c97fa44014c6017beefb21"
+      },
+      {
+        "path": ".pytest_cache/.gitignore",
+        "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+      },
+      {
+        "path": ".pytest_cache/CACHEDIR.TAG",
+        "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+      },
+      {
+        "path": ".pytest_cache/README.md",
+        "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+      },
+      {
+        "path": ".pytest_cache/v/cache/nodeids",
+        "sha256": "350f144e16efb1171ab9ffbf22790d59cb2150e9b805cf82e4e2cb5294a8a26c"
+      },
+      {
+        "path": "Cargo.lock",
+        "sha256": "219bbca10c13ea90f02459c065b5b386a0980938f99aafcacb5b6b08b13364f1"
+      },
+      {
+        "path": "Cargo.toml",
+        "sha256": "a2cc700e127d35517b580bbcfbdbd5ac789ff98b82d56b7035fa0c45225d7a7e"
+      },
+      {
+        "path": "LICENSE.txt",
+        "sha256": "803152006c87fdfd8b30b087734fd590e7a8d871df1a6de40a8fbdd27673907f"
+      },
+      {
+        "path": "NOTICE",
+        "sha256": "0f0087dd6bfaae069294e4344ad512df795d53e1809b1004db2e46e40110ccf2"
+      },
+      {
+        "path": "README.md",
+        "sha256": "887fec0dda9737c49b52e4dd2f9d85b024b9cb5172ed9851e9b9020eaad0134c"
+      },
+      {
+        "path": "RUSTSMITH_REPORT.md",
+        "sha256": "be41130e073289cb1714db33bffb52f34d6897126ad402d18fa861ddf5721579"
+      },
+      {
+        "path": "crc/__init__.py",
+        "sha256": "40fd6b081d2c89278b4957b1bc5c093b25a9544ac6bb6a06f7d2944bf2def8df"
+      },
+      {
+        "path": "crc/__main__.py",
+        "sha256": "44fe702a0a062c9d5e2c9781af0b3e076ff53511aac85bd95364186203a3fe9e"
+      },
+      {
+        "path": "crc-core/Cargo.toml",
+        "sha256": "14af9dbe01df73130bcc5824d67d371bd9a9cda89dc13e65d334d129d0e1812b"
+      },
+      {
+        "path": "crc-core/src/lib.rs",
+        "sha256": "142f4bdf35f05ed0846bc3450a06453dc1e81c98193aab67a793b9b301470a48"
+      },
+      {
+        "path": "docs/docs/api/abstract_register.md",
+        "sha256": "3f685109a09b5ad28109738a3a87f6fa7a307636dee40b6bbb77e5f8ebe21188"
+      },
+      {
+        "path": "docs/docs/api/basic_register.md",
+        "sha256": "ee518d2c0cfb6912c4a4105a1ecc31dfdb941c3adeff7a60cb0f736b58c1817d"
+      },
+      {
+        "path": "docs/docs/api/calculator.md",
+        "sha256": "cc95fa0a10f944201fec44f4557f5bd4e5f444219d4e5e9558efdd3454db9115"
+      },
+      {
+        "path": "docs/docs/api/configuration.md",
+        "sha256": "7e6c3c037effcba5cc16db700b38103966b424a4379ca2f2f0f88867aa2836fe"
+      },
+      {
+        "path": "docs/docs/api/index.md",
+        "sha256": "0d08dab2e18aa8280ebba277dcc881769591dd4e7ddd08d4dece83b401839d25"
+      },
+      {
+        "path": "docs/docs/api/register.md",
+        "sha256": "7393ac33c2a183f07e1275e034551745409ade5e1fe287bd0f8bfd32162e8545"
+      },
+      {
+        "path": "docs/docs/api/table_based_register.md",
+        "sha256": "d9133f5f98629c7f35af1b461cd050e9a181b4f65cd2f0ccae1d991d5e662979"
+      },
+      {
+        "path": "docs/docs/changelog/changes_2.0.0.md",
+        "sha256": "ec1a6eb099beccd8932e21da7ae9ef68aa7dbd41bddd07fc2e8bcc1bbc99270f"
+      },
+      {
+        "path": "docs/docs/changelog/changes_3.0.0.md",
+        "sha256": "485d7e46b03c94b4c78972853152ec91643ad0c01932a14db1d8aa8350731833"
+      },
+      {
+        "path": "docs/docs/changelog/changes_3.0.1.md",
+        "sha256": "7a7851887f6b869b39f3ed6b6e5f7934af46b723e01557e79171294faa38530f"
+      },
+      {
+        "path": "docs/docs/changelog/changes_4.0.0.md",
+        "sha256": "98c8a61a5674b16d1f1155472dde247eecff3192d0964c72818493d8a4c7f694"
+      },
+      {
+        "path": "docs/docs/changelog/changes_4.1.0.md",
+        "sha256": "83eaf148e56cded8be9fd182ad8726955b53f7d5a4e10a9d40a67c5cb43d5973"
+      },
+      {
+        "path": "docs/docs/changelog/changes_4.2.0.md",
+        "sha256": "4442070e2455aa6c1f4d22b976417ea133bb33924b59376477f10259e19e41a6"
+      },
+      {
+        "path": "docs/docs/changelog/changes_4.3.0.md",
+        "sha256": "84ce40119d873e6ae028f89ae5e41addb7bfd2747da6e14a9080b2843a62e0b9"
+      },
+      {
+        "path": "docs/docs/changelog/changes_5.0.0.md",
+        "sha256": "508ffdb8f36ab79bc0d95c444b0210fa9170097bcf108591b88a8a7ec0955ac9"
+      },
+      {
+        "path": "docs/docs/changelog/changes_6.0.0.md",
+        "sha256": "a172a8fcb941e835b81da4447771f043e7f656405112cebe419db3b039d8a9f8"
+      },
+      {
+        "path": "docs/docs/changelog/changes_6.1.0.md",
+        "sha256": "b94355d0bdf7e1d651331c9f2b262e448cbfeeb56e0e85a4c04d99d8b5ea8bb9"
+      },
+      {
+        "path": "docs/docs/changelog/changes_6.1.1.md",
+        "sha256": "cb4456dcdba272b20435a325149de321b6952a5b6a3407fcd6232b14d1aa872c"
+      },
+      {
+        "path": "docs/docs/changelog/changes_6.1.2.md",
+        "sha256": "81499c2332d77c57568001f9da142bfb67186890ed212e9aa87d7f0ec783e009"
+      },
+      {
+        "path": "docs/docs/changelog/changes_7.0.0.md",
+        "sha256": "88f65b716e7bf0121b4b2c2e94bd31d404f09dc2aa73c568d95baa4f75fb8f05"
+      },
+      {
+        "path": "docs/docs/changelog/changes_7.1.0.md",
+        "sha256": "f5aa520681b7f38907705b0ed3cc86d0118c9a774536f95be95bd101f32a4b81"
+      },
+      {
+        "path": "docs/docs/changelog/changes_8.0.0.md",
+        "sha256": "02b10c1ed25cb96b66defb201604f6e60913773dae7549619f1378d087c19a30"
+      },
+      {
+        "path": "docs/docs/changelog/index.md",
+        "sha256": "3d34c1478cdf46f0b4c443e52c1a6f5920bf6dc0d769946ca61a3b8f74b4ae43"
+      },
+      {
+        "path": "docs/docs/changelog/unreleased.md",
+        "sha256": "10f90169c10dd77f9b0fe6a617655dc69cc98555597ec59c07b7b49942b29390"
+      },
+      {
+        "path": "docs/docs/cli.md",
+        "sha256": "f675bc2f50b2e9978b0c5c9954c817c6e5692714b16cc4d9f761403c6325cedf"
+      },
+      {
+        "path": "docs/docs/configurations.md",
+        "sha256": "15916dfc3844ed67735674aa8d7bf454802a1c0872c40bd21ad2c7ae6fe36351"
+      },
+      {
+        "path": "docs/docs/contributors.md",
+        "sha256": "21b92051138c5dafadb7c61b912f632b0b7d3d00cbf55a035077036a152982ad"
+      },
+      {
+        "path": "docs/docs/development/index.md",
+        "sha256": "b8fd3073485d29f349af447e7b9d154f3e7e97ab04c33f6ebac214b0f69f36ef"
+      },
+      {
+        "path": "docs/docs/development/release.md",
+        "sha256": "a456eda3c9df8afda4b51b14a928c3a57c1e9f0aeea621faae8de860fface38d"
+      },
+      {
+        "path": "docs/docs/development/setup.md",
+        "sha256": "6cbcbaf979112bde28b82662cddbc3ab7e0479e372d0077e87ad1bf6746998fe"
+      },
+      {
+        "path": "docs/docs/getting-started/index.md",
+        "sha256": "edc862520ee68b4ea26961d09ffc3be34608307811b13c8cfc49d6769d911f18"
+      },
+      {
+        "path": "docs/docs/getting-started/installation.md",
+        "sha256": "7c8bd15c6e13d6e6add45d15ef638185d662521663ff060a2c3480e29dbc3ca8"
+      },
+      {
+        "path": "docs/docs/getting-started/quick-start.md",
+        "sha256": "2eca349492b09a219f870c05b95dc47cb5b6ad46d5e8e27ee3183980fecd313e"
+      },
+      {
+        "path": "docs/docs/index.md",
+        "sha256": "081e5ebcfc422b983a677efb294a95180075386afa6f23edb4013b831f1da0de"
+      },
+      {
+        "path": "docs/docs/usage/calculator.md",
+        "sha256": "1f28e3f0f894b5c96277db53ff84a415a3ef1cfa0572d9f87e27854691dfd63e"
+      },
+      {
+        "path": "docs/docs/usage/configurations.md",
+        "sha256": "710afaaa2695e2ac9082343d90c9eed1b8d49c09c611a255a7e453c10b37c573"
+      },
+      {
+        "path": "docs/docs/usage/index.md",
+        "sha256": "d9edab524c19c4e0819b4ffcdcf02f8864e170e4e8b2b082a368d321833f1396"
+      },
+      {
+        "path": "docs/docs/usage/registers.md",
+        "sha256": "e73cd5de2c25f32219ae97b235d1563231a0cd9d809ec70235aac101ea6dfb03"
+      },
+      {
+        "path": "docs/scripts/configurations.py",
+        "sha256": "ef5bc65e6fe8972d29b111e955b90ae240d1b57667cecb8bcdbbbad45d3bcbaa"
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "3eb039d88a5839e23a89dab98e9bbfa926102342ce47f38c8724e9271516d880"
+      },
+      {
+        "path": "release.toml",
+        "sha256": "0a9ad6459e0dd3e06906f0f7a6deac7c5b87aace27560cbe9b6836fa52eaac75"
+      },
+      {
+        "path": "rustsmith-report.html",
+        "sha256": "6c613521191c44333a02801f9f46d6fe1721296a1f6b371e9af3231ba95c2a02"
+      },
+      {
+        "path": "rustsmith-report.json",
+        "sha256": "fb21663fdd0746642e2490912280f89e4fe5ece3bd3d2c23142973a5bbc44c88"
+      },
+      {
+        "path": "src/crc/py.typed",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "src/lib.rs",
+        "sha256": "239caf9ea005bd4cff8a8bdb2ac1664e95e8a95ec31e4163fcfec44375022a57"
+      },
+      {
+        "path": "tasks.py",
+        "sha256": "4d1f8ad3d0f7ecabeedb60a84cb9a1007a544dd9757659677a7761f05a836172"
+      },
+      {
+        "path": "test/bench/benches.py",
+        "sha256": "0774bdf8bab9c4e1c0fab0ba205a0d64f5218bb76d22d1d120086e87b4a2eec6"
+      },
+      {
+        "path": "test/integration/test_cli.py",
+        "sha256": "73b9211a7936433eb0bc3ef2319eec2daa90d515d819bccdf60ff1aac86b32f0"
+      },
+      {
+        "path": "test/unit/regression/test_unstable_digest.py",
+        "sha256": "4d79f56b1db01b325db6a5b13d2df328dd4919cdd6b36770c7bedf91e7ccd326"
+      },
+      {
+        "path": "test/unit/test_crc.py",
+        "sha256": "0760728c5241ad7e36dd222f6fdf1fbc5b06fcc3547984af274bf2eb1916e291"
+      },
+      {
+        "path": "uv.lock",
+        "sha256": "82f392eadd756dbca87ed5467c27e94b7a8711b618ad016bced495f075a01e78"
+      },
+      {
+        "path": "zensical.toml",
+        "sha256": "df7f73ed5a907b8dfa9e397f4837b91105a90e143ada4e166e78ab5bc9ce0905"
+      }
+    ],
+    "merged": [
+      "round0-manual-hex"
+    ],
+    "merged_count": 1,
+    "rejected_excluded": 4,
+    "work_sha": "3e20e256a4015de7ae8905aaf08f4582adbd668f"
+  },
+  "baseline_ci": {
+    "high": 0.000010951653226382203,
+    "low": 0.000010584123895063792,
+    "point": 0.00001073562099999334
+  },
+  "config": {
+    "optimize": {
+      "max_rounds": 6,
+      "round_gain_threshold_pct": 3.0
+    }
+  },
+  "failed": [
+    {
+      "outcome": "rejected_at_proposal",
+      "technique": "rayon-parallel"
+    },
+    {
+      "gate": "no_regression",
+      "outcome": "gate_failed",
+      "technique": "slicing-by-8"
+    },
+    {
+      "gate": "benchmark",
+      "outcome": "gate_failed",
+      "technique": "unroll-x4"
+    },
+    {
+      "gate": "build",
+      "outcome": "gate_failed",
+      "technique": "inline-hint"
+    }
+  ],
+  "finals": [
+    {
+      "final": "pgo",
+      "outcome": "rejected_at_proposal",
+      "reason": "llvm-profdata unavailable"
+    },
+    {
+      "final": "bolt",
+      "outcome": "rejected_at_proposal",
+      "reason": "llvm-bolt unavailable"
+    },
+    {
+      "final": "allocator",
+      "outcome": "rejected_at_proposal",
+      "reason": "no allocation bound established"
+    }
+  ],
+  "floor": 0.005841435872603003,
+  "guidance_version": "opt-guidance v1 (seed)",
+  "merged": [
+    {
+      "gain": 0.017592297367259934,
+      "technique": "round0-manual-hex"
+    }
+  ],
+  "round0_applied": [
+    {
+      "gain": 0.017592297367259934,
+      "outcome": "merged",
+      "technique": "round0-manual-hex"
+    }
+  ],
+  "round0_findings": [
+    "format!: 6 sites (hot format!/clone)"
+  ],
+  "rounds": [
+    {
+      "ci": {
+        "high": 0.00001167635644216918,
+        "low": 0.000010924223554967384
+      },
+      "merged": 0,
+      "round": 1,
+      "round_gain": -0.049854353129910496
+    }
+  ],
+  "run_id": "crc-publish-01",
+  "stop": "round-gain CI lower bound below threshold (gain=-0.050)",
+  "workload": "vis-4K/vis-64K + heldout (held-4K/held-shift-511)"
+}

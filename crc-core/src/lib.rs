@@ -142,7 +142,24 @@ pub fn render_template(width: u64) -> String {
     format!("0x{{:0{digits}X}}")
 }
 pub fn format_value(template_digits: usize, v: u64) -> String {
-    format!("0x{v:0width$X}", width = template_digits)
+    let mut nibbles: Vec<u32> = Vec::new();
+    let mut tmp = v;
+    loop {
+        nibbles.push((tmp & 0xF) as u32);
+        if tmp < 16 {
+            break;
+        }
+        tmp >>= 4;
+    }
+    while nibbles.len() < template_digits {
+        nibbles.push(0);
+    }
+    let mut s = String::with_capacity(2 + nibbles.len());
+    s.push_str("0x");
+    for d in nibbles.iter().rev() {
+        s.push(char::from_digit(*d, 16).unwrap().to_ascii_uppercase());
+    }
+    s
 }
 // ---------------------------------------------------------------------------
 
